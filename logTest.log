@@ -1,0 +1,144 @@
+###################################################
+##############    Admin Opeartion  ################
+###################################################
+I will login with an admin user100
+I can login with the user100
+test Pass
+--------------------------------------------------------------------
+The admin will try to add a new car
+I can add a new car
+test Pass
+--------------------------------------------------------------------
+The admin will try to find the new car
+I can find all the cars i need
+test Pass
+--------------------------------------------------------------------
+The admin will try to remove the new car
+I can delet the cars from the list
+test Pass
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+###################################################
+###########   AuthenticationTest  #################
+###################################################
+I will create a new user for test called testrobot
+A new user is add successfully
+test Pass
+--------------------------------------------------------------------
+I will try to login with the new user
+I can login with the testrobot
+test Pass
+--------------------------------------------------------------------
+I will try to update the new user
+The user information is update successfully
+test Pass
+--------------------------------------------------------------------
+I will try to re login with the new info
+I can login with the testrobot
+test Pass
+--------------------------------------------------------------------
+I will try to logout from my account
+I can logout from my account
+test Pass
+--------------------------------------------------------------------
+I will try to login and remove my account
+I can remove my account
+test Pass
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+###################################################
+######   Remove car has a demand  ################
+###################################################
+I will login with an admin user100
+I can login with the user100
+test Pass
+--------------------------------------------------------------------
+The admin will try to add a new car
+I can add a new car
+test Pass
+--------------------------------------------------------------------
+The admin will try to find the new car
+I can find all the cars i need
+test Pass
+--------------------------------------------------------------------
+I will try to book the new car
+I can Book the car
+test Pass
+--------------------------------------------------------------------
+The admin will try to remove the new car
+Can not delet the new car. Error message ((Can not delet car who has a demand))
+test Pass
+--------------------------------------------------------------------
+I will try to Now to remove my demand
+I can removed my demand
+test Pass
+--------------------------------------------------------------------
+The admin will try to remove the new car
+I can delet the cars from the list
+test Pass
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+###################################################
+######   Remove user has a demand  ################
+###################################################
+I will create a new user for test called testrobot
+A new user is add successfully
+test Pass
+--------------------------------------------------------------------
+I will try to login with the new user
+I can login with the testrobot
+test Pass
+--------------------------------------------------------------------
+I will search for avilabel car with model4, engine 1 and current location is location1
+I can find all the cars i need
+test Pass
+--------------------------------------------------------------------
+I will try to book the first car in the list
+I can Book the car
+test Pass
+--------------------------------------------------------------------
+I will remove my account
+I can not remove my account. I have an error Message ((Can not delet user who has a demand))
+test Pass
+--------------------------------------------------------------------
+I will try to Now to remove my demand
+I can removed my demand
+test Pass
+--------------------------------------------------------------------
+I will remove my account
+I can remove my account
+test Pass
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+###################################################
+##########   search and book Test  ################
+###################################################
+I will create a new user for test called testrobot
+A new user is add successfully
+test Pass
+--------------------------------------------------------------------
+I will try to login with the new user
+I can login with the testrobot
+test Pass
+--------------------------------------------------------------------
+I will search for avilabel car with model4, engine 1 and current location is location1
+I can find all the cars i need
+test Pass
+--------------------------------------------------------------------
+I will try to book the first car in the list
+I can Book the car
+test Pass
+--------------------------------------------------------------------
+I will try to update my drop location in my demand
+I can update my demand
+test Pass
+--------------------------------------------------------------------
+I will try to Now to remove my demand
+I can removed my demand
+test Pass
+--------------------------------------------------------------------
+I will remove my account
+I can remove my account
+test Pass
+--------------------------------------------------------------------
+--------------------------------------------------------------------
